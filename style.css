@@ -1,0 +1,36 @@
+
+
+    * {
+        box-sizing: border-box;
+      }
+      body{
+          background-color: black
+
+      }
+      .body h2{
+          color: #90DDF0;
+      }
+      
+       .column {
+        float: left;
+        width: 33.33%;
+        padding: 10px;
+        height: 300px;
+      }
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .site-header {
+            background-color: rgb( 8, 22, 36);
+            color: white;
+            padding: 10px 30px;
+            border-bottom: 3px solid #90DDF0;
+            , 22, 368
+            @media screen and (max-width: 600px) {
+                .column {
+                  width: 100%;
+                }
+              }
+ 
